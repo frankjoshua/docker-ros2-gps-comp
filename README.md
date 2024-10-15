@@ -13,7 +13,7 @@ docker run -it \
     --network=host \
     --ipc=host \
     --pid=host \
-    frankjoshua/ros2-master
+    frankjoshua/ros2-gps-comp
 ```
 
 ## Building
@@ -23,7 +23,7 @@ Use [build.sh](build.sh) to build the docker containers.
 <br>Local builds are as follows:
 
 ```
-./build.sh -t frankjoshua/ros2-master -l
+./build.sh -t frankjoshua/ros2-gps-comp -l
 ```
 
 ## Template
